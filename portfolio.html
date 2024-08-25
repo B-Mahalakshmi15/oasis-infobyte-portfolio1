@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FF4081;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .intro img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .skills, .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .skills div, .projects div {
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skills div:hover, .projects div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my portfolio</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="intro">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.Rm5tTp49XryPOYdV28iB6wHaHa&pid=Api&P=0&h=180" alt="my pic">
+        <h2>Hello, I'm MAHALAKSHMI B</h2>
+        <p>I am currently pursuing B.E Computer Science Engineering at PSNA College Of Engineering and Technology. I've completed some projects, and their descriptions are shown below.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div>
+            <h3>HTML</h3>
+            <p>Proficient in HTML5, creating semantic and accessible web pages.</p>
+        </div>
+        <div>
+            <h3>CSS</h3>
+            <p>Experienced in CSS3, with a focus on responsive design and animations.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div>
+            <h3>ATM CONSOLE</h3>
+            <p>A mini ATM console project is a basic console-based application that simulates the functionalities of an Automated Teller Machine (ATM). This project typically includes core banking operations such as depositing money, withdrawing money (credit), and checking the account balance.</p>
+        </div>
+        <div>
+            <h3>HOSPITAL MANAGEMENT SYSTEM</h3>
+            <p>A Hospital Management System mini project is a simplified software application designed to manage the day-to-day operations of a hospital or clinic. It allows for efficient handling of various hospital activities such as patient registration, appointment scheduling, doctor assignment, billing, and record management.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact me at: mahalakshmi22cs@psnacet.edu.in.com</p>
+    </footer>
+
+</body>
+</html>
